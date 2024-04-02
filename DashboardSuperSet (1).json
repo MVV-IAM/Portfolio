@@ -1,0 +1,446 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "\u041b\u0435\u043d\u0442\u0430 \u043d\u043e\u0432\u043e\u0441\u0442\u0435\u0439 - \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0435",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"25304\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\", \"color_scheme\": null, \"filter_scopes\": {\"25304\": {\"os\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"gender\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"age\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 3693}",
+                "position_json": "{\"CHART-2Mb5QvOkNj\":{\"children\":[],\"id\":\"CHART-2Mb5QvOkNj\",\"meta\":{\"chartId\":25298,\"height\":50,\"sliceName\":\"CTR\",\"uuid\":\"9a18e4ff-3b54-491a-94a6-fee4de862836\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-FWc4WZnq9\"],\"type\":\"CHART\"},\"CHART-AUicP9MUp2\":{\"children\":[],\"id\":\"CHART-AUicP9MUp2\",\"meta\":{\"chartId\":25303,\"height\":50,\"sliceName\":\"\\u0422\\u043e\\u043f \\u043f\\u043e\\u0441\\u0442\\u043e\\u0432\",\"uuid\":\"4e237ac3-8d71-4f94-a206-1e56a22f4e0c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-BC24NRV11D\"],\"type\":\"CHART\"},\"CHART-HtL5Xh9J8E\":{\"children\":[],\"id\":\"CHART-HtL5Xh9J8E\",\"meta\":{\"chartId\":25293,\"height\":49,\"sliceName\":\"MAU\",\"uuid\":\"f726c41a-025f-41e3-90ac-651c33a6a45b\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-CuGX_B33Mu\"],\"type\":\"CHART\"},\"CHART-LbGpMMPN4W\":{\"children\":[],\"id\":\"CHART-LbGpMMPN4W\",\"meta\":{\"chartId\":25304,\"height\":50,\"sliceName\":\"\\u0424\\u0438\\u043b\\u044c\\u0442\\u0440\",\"uuid\":\"9a8bcc46-fb61-4d91-9041-889b23b38b60\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-CuGX_B33Mu\"],\"type\":\"CHART\"},\"CHART-Wu2rSEfVSn\":{\"children\":[],\"id\":\"CHART-Wu2rSEfVSn\",\"meta\":{\"chartId\":25323,\"height\":50,\"sliceName\":\"\\u0422\\u043e\\u043f \\u0433\\u043e\\u0440\\u043e\\u0434\\u043e\\u0432 \\u0432 \\u0441\\u0442\\u0440\\u0430\\u043d\\u0430\\u0445\",\"uuid\":\"7c10e3de-876d-43ec-b68a-50103fb4af23\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-BC24NRV11D\"],\"type\":\"CHART\"},\"CHART-fP1c59pPZ0\":{\"children\":[],\"id\":\"CHART-fP1c59pPZ0\",\"meta\":{\"chartId\":25290,\"height\":47,\"sliceName\":\"DAU\",\"uuid\":\"bdb2d8fe-7101-4360-ab64-41f1ef4b5841\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-CuGX_B33Mu\"],\"type\":\"CHART\"},\"CHART-h2oRY41eAL\":{\"children\":[],\"id\":\"CHART-h2oRY41eAL\",\"meta\":{\"chartId\":25291,\"height\":47,\"sliceName\":\"WAU\",\"uuid\":\"9dbc6f8f-8476-48f6-9c83-ac60ede3abc3\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-CuGX_B33Mu\"],\"type\":\"CHART\"},\"CHART-jWzkrZNOOs\":{\"children\":[],\"id\":\"CHART-jWzkrZNOOs\",\"meta\":{\"chartId\":25318,\"height\":50,\"sliceName\":\"\\u0422\\u043e\\u043f \\u0441\\u0442\\u0440\\u0430\\u043d \\u043f\\u043e \\u0430\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u0438\\u0438\",\"uuid\":\"16ea5765-5279-468e-93d1-78f637699216\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-BC24NRV11D\"],\"type\":\"CHART\"},\"CHART-pGyhkP5z74\":{\"children\":[],\"id\":\"CHART-pGyhkP5z74\",\"meta\":{\"chartId\":25296,\"height\":50,\"sliceName\":\"\\u041b\\u0430\\u0439\\u043a\\u0438 \\u0438 \\u043f\\u0440\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u044b\",\"uuid\":\"c601aca3-e046-4c91-9580-f1eed1d27753\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-FWc4WZnq9\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"HEADER-5N9Yo8N42I\",\"ROW-CuGX_B33Mu\",\"HEADER-cRQt0wQMj9\",\"ROW-FWc4WZnq9\",\"ROW-BC24NRV11D\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-5N9Yo8N42I\":{\"children\":[],\"id\":\"HEADER-5N9Yo8N42I\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"\\u0410\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u043d\\u044b\\u0435 \\u0434\\u0430\\u043d\\u043d\\u044b\\u0435\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-cRQt0wQMj9\":{\"children\":[],\"id\":\"HEADER-cRQt0wQMj9\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"\\u041e\\u0441\\u043d\\u043e\\u0432\\u043d\\u044b\\u0435 \\u0441\\u043e\\u0431\\u044b\\u0442\\u0438\\u044f\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"\\u041b\\u0435\\u043d\\u0442\\u0430 \\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u0435\\u0439 - \\u043e\\u0441\\u043d\\u043e\\u0432\\u043d\\u043e\\u0435\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-BC24NRV11D\":{\"children\":[\"CHART-AUicP9MUp2\",\"CHART-jWzkrZNOOs\",\"CHART-Wu2rSEfVSn\"],\"id\":\"ROW-BC24NRV11D\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-CuGX_B33Mu\":{\"children\":[\"CHART-LbGpMMPN4W\",\"CHART-fP1c59pPZ0\",\"CHART-h2oRY41eAL\",\"CHART-HtL5Xh9J8E\"],\"id\":\"ROW-CuGX_B33Mu\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-FWc4WZnq9\":{\"children\":[\"CHART-pGyhkP5z74\",\"CHART-2Mb5QvOkNj\"],\"id\":\"ROW-FWc4WZnq9\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25290,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u0423\\u043d\\u0438\\u043a\\u0430\\u043b\\u044c\\u043d\\u044b\\u0435 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438\", \"optionName\": \"metric_7b0oosq6yg2_5ni26i8o7tm\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"show_brush\": \"auto\", \"slice_id\": 25290, \"time_grain_sqla\": \"P1D\", \"time_range\": \"previous calendar month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25290, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"previous calendar month\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"COUNT_DISTINCT\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438\",\"optionName\":\"metric_7b0oosq6yg2_5ni26i8o7tm\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "DAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25291,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u0423\\u043d\\u0438\\u043a\\u0430\\u043b\\u044c\\u043d\\u044b\\u0435 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438\", \"optionName\": \"metric_7b0oosq6yg2_5ni26i8o7tm\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"show_brush\": \"auto\", \"show_legend\": true, \"show_markers\": true, \"slice_id\": 25291, \"time_grain_sqla\": \"P1W\", \"time_range\": \"previous calendar month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25291, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"previous calendar month\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1W\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"COUNT_DISTINCT\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438\",\"optionName\":\"metric_7b0oosq6yg2_5ni26i8o7tm\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "WAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25293,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u0423\\u043d\\u0438\\u043a\\u0430\\u043b\\u044c\\u043d\\u044b\\u0435 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438\", \"optionName\": \"metric_7b0oosq6yg2_5ni26i8o7tm\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"show_brush\": \"auto\", \"show_legend\": true, \"show_markers\": true, \"time_grain_sqla\": \"P1M\", \"time_range\": \"2023-05-01T00:00:00 : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25293, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2023-05-01T00:00:00 : now\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1M\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"COUNT_DISTINCT\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438\",\"optionName\":\"metric_7b0oosq6yg2_5ni26i8o7tm\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "MAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25296,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"action\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u0421\\u043e\\u0431\\u044b\\u0442\\u0438\\u044f\", \"optionName\": \"metric_j45gjw04ub_k74ibt3x4hp\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"previous calendar month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25296, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"previous calendar month\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"action\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":60935,\"column_name\":\"user_id\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT32\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"COUNT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u0421\u043e\u0431\u044b\u0442\u0438\u044f\",\"optionName\":\"metric_j45gjw04ub_k74ibt3x4hp\"}],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u041b\u0430\u0439\u043a\u0438 \u0438 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u044b",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25298,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CTR\", \"optionName\": \"metric_j45gjw04ub_k74ibt3x4hp\", \"sqlExpression\": \"countIf(user_id, action='like') / countIf(user_id, action='view')\"}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"previous calendar month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25298, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"previous calendar month\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SQL\",\"sqlExpression\":\"countIf(user_id, action='like') / countIf(user_id, action='view')\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"CTR\",\"optionName\":\"metric_j45gjw04ub_k74ibt3x4hp\"}],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "CTR",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25303,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"post_id\"], \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041f\\u0440\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u044b\", \"optionName\": \"metric_nqaijxlg25q_2s90hbl0cqd\", \"sqlExpression\": \"countIf(action='view')\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041b\\u0430\\u0439\\u043a\\u0438\", \"optionName\": \"metric_f6n48v1qma6_c9zo6itp36i\", \"sqlExpression\": \"countIf(action='like')\"}, {\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041e\\u0445\\u0432\\u0430\\u0442\", \"optionName\": \"metric_58oyflowpig_j4ctwqrwir\", \"sqlExpression\": null}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CTR\", \"optionName\": \"metric_2hjt62mqojh_2kyxwxw9wvw\", \"sqlExpression\": \"countIf(action='like') / countIf(action='view')\"}], \"order_by_cols\": [], \"order_desc\": false, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 250, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 25303, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"post_id\"],\"metrics\":[{\"expressionType\":\"SQL\",\"sqlExpression\":\"countIf(action='view')\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u044b\",\"optionName\":\"metric_nqaijxlg25q_2s90hbl0cqd\"},{\"expressionType\":\"SQL\",\"sqlExpression\":\"countIf(action='like')\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041b\u0430\u0439\u043a\u0438\",\"optionName\":\"metric_f6n48v1qma6_c9zo6itp36i\"},{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":60935,\"column_name\":\"user_id\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT32\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041e\u0445\u0432\u0430\u0442\",\"optionName\":\"metric_58oyflowpig_j4ctwqrwir\"},{\"expressionType\":\"SQL\",\"sqlExpression\":\"countIf(action='like') / countIf(action='view')\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"CTR\",\"optionName\":\"metric_2hjt62mqojh_2kyxwxw9wvw\"}],\"orderby\":[[{\"expressionType\":\"SQL\",\"sqlExpression\":\"countIf(action='view')\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u044b\",\"optionName\":\"metric_nqaijxlg25q_2s90hbl0cqd\"},false]],\"annotation_layers\":[],\"row_limit\":250,\"timeseries_limit\":0,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0422\u043e\u043f \u043f\u043e\u0441\u0442\u043e\u0432",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25304,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"11693__table\", \"date_filter\": true, \"extra_form_data\": {}, \"filter_configs\": [{\"asc\": false, \"clearable\": true, \"column\": \"os\", \"key\": \"O-qMKb8ZH\", \"metric\": \"count\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": false, \"clearable\": true, \"column\": \"gender\", \"key\": \"RHUNJPBdz\", \"metric\": \"count\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": false, \"clearable\": true, \"column\": \"age\", \"key\": \"__5_wWJNK\", \"metric\": \"count\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"time\", \"show_sqla_time_column\": false, \"slice_id\": 25304, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 25304, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0424\u0438\u043b\u044c\u0442\u0440",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25318,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"country\"], \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041e\\u0445\\u0432\\u0430\\u0442\", \"optionName\": \"metric_58oyflowpig_j4ctwqrwir\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": false, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 250, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 25318, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"country\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041e\u0445\u0432\u0430\u0442\",\"optionName\":\"metric_58oyflowpig_j4ctwqrwir\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041e\u0445\u0432\u0430\u0442\",\"optionName\":\"metric_58oyflowpig_j4ctwqrwir\"},false]],\"annotation_layers\":[],\"row_limit\":250,\"timeseries_limit\":0,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0422\u043e\u043f \u0441\u0442\u0440\u0430\u043d \u043f\u043e \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0438\u0438",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.feed_actions",
+                            "datasource_type": "table",
+                            "id": 25323,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"11693__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"city\", \"country\"], \"include_time\": false, \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 60935, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041e\\u0445\\u0432\\u0430\\u0442\", \"optionName\": \"metric_58oyflowpig_j4ctwqrwir\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": false, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 50, \"server_page_length\": 10, \"show_cell_bars\": true, \"show_totals\": false, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 25323, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":11693,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"city\",\"country\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041e\u0445\u0432\u0430\u0442\",\"optionName\":\"metric_58oyflowpig_j4ctwqrwir\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":60935,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041e\u0445\u0432\u0430\u0442\",\"optionName\":\"metric_58oyflowpig_j4ctwqrwir\"},false]],\"annotation_layers\":[],\"row_limit\":50,\"timeseries_limit\":0,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0422\u043e\u043f \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0432 \u0441\u0442\u0440\u0430\u043d\u0430\u0445",
+                            "viz_type": "table"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "user_id",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60935,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "UINT32",
+                            "uuid": "1874da46-6c4f-46a1-988c-49d6f90542af",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "post_id",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60936,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "UINT32",
+                            "uuid": "55328963-14c8-48e9-b6d3-3e9d0b17743e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "action",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60937,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "STRING",
+                            "uuid": "92f79bee-cf04-470c-9947-8baba931c724",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "time",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60938,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "DATETIME",
+                            "uuid": "baa578a6-22a6-46ee-b0c9-a33df93f888d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "gender",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60939,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "INT8",
+                            "uuid": "b6a2936f-43d9-4f3c-8a4f-f3ed0a106f69",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "age",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60940,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "INT16",
+                            "uuid": "212263a3-67a2-483a-a355-c9aa4ef593ba",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60941,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "STRING",
+                            "uuid": "0191a7e6-dddd-4e80-bb77-0dde58cb0ba7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "city",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60942,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "STRING",
+                            "uuid": "90fcd13d-5090-43a9-828f-f17c1d8006a6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "os",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60943,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "STRING",
+                            "uuid": "9f22c389-3bee-46bd-8c90-c81725c1b41c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "source",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60944,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "STRING",
+                            "uuid": "b73e65f5-c683-4ff8-a2d7-398e6d8838e1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "column_name": "exp_group",
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60945,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 11693,
+                            "type": "INT8",
+                            "uuid": "2f4c8f2d-db50-4157-a7b9-97738a7d9ad8",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 508,
+                            "changed_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "created_by_fk": 508,
+                            "created_on": {
+                                "__datetime__": "2023-05-22T13:29:10"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 11898,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 11693,
+                            "uuid": "d340e7ec-4d67-4db5-ae46-c6f6ef0cfc7b",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 11693, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20230520",
+                "sql": null,
+                "table_name": "feed_actions",
+                "template_params": null
+            }
+        }
+    ]
+}

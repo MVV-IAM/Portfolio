@@ -1,0 +1,381 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "\u0412\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u0432",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 3698}",
+                "position_json": "{\"CHART-2utuxKCx-6\":{\"children\":[],\"id\":\"CHART-2utuxKCx-6\",\"meta\":{\"chartId\":25338,\"height\":50,\"sliceName\":\"\\u0410\\u043a\\u0442\\u0438\\u0432\\u043d\\u0430\\u044f \\u0430\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u0438\\u044f \\u0432 \\u0420\\u043e\\u0441\\u0441\\u0438\\u0438\",\"uuid\":\"f213ed25-a16b-4ea0-b439-e4bb53993438\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-OnuX9T3cO\"],\"type\":\"CHART\"},\"CHART-6gUlQucwcB\":{\"children\":[],\"id\":\"CHART-6gUlQucwcB\",\"meta\":{\"chartId\":25334,\"height\":50,\"sliceName\":\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438 \\u0442\\u043e\\u043b\\u044c\\u043a\\u043e \\u043b\\u0435\\u043d\\u0442\\u044b \\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u0435\\u0439\",\"uuid\":\"22885fa5-1dec-4a3a-8ea2-4a8309378ab2\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Iql4bOJLnt\"],\"type\":\"CHART\"},\"CHART-ndg5vYpa6I\":{\"children\":[],\"id\":\"CHART-ndg5vYpa6I\",\"meta\":{\"chartId\":25336,\"height\":50,\"sliceName\":\"\\u0410\\u043a\\u0442\\u0438\\u0432\\u043d\\u0430\\u044f \\u0430\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u0438\\u044f \\u043f\\u043e \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u0443\",\"uuid\":\"bcdbfa0d-4975-45c9-b880-623d10aa38c8\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-OnuX9T3cO\"],\"type\":\"CHART\"},\"CHART-rOpNvn4oHA\":{\"children\":[],\"id\":\"CHART-rOpNvn4oHA\",\"meta\":{\"chartId\":25335,\"height\":50,\"sliceName\":\"\\u0410\\u043a\\u0442\\u0438\\u0432\\u043d\\u0430\\u044f \\u0430\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u0438\\u044f\",\"uuid\":\"68d5502e-68f4-476b-ab7e-b7ddeb4c8faf\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Iql4bOJLnt\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-Iql4bOJLnt\",\"ROW-OnuX9T3cO\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"\\u0412\\u0437\\u0430\\u0438\\u043c\\u043e\\u0434\\u0435\\u0439\\u0441\\u0442\\u0432\\u0438\\u0435 \\u0441\\u0435\\u0440\\u0432\\u0438\\u0441\\u043e\\u0432\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-Iql4bOJLnt\":{\"children\":[\"CHART-rOpNvn4oHA\",\"CHART-6gUlQucwcB\"],\"id\":\"ROW-Iql4bOJLnt\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-OnuX9T3cO\":{\"children\":[\"CHART-ndg5vYpa6I\",\"CHART-2utuxKCx-6\"],\"id\":\"ROW-OnuX9T3cO\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.Untitled Query 2 06/07/2023 17:41:20",
+                            "datasource_type": "table",
+                            "id": 25334,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"12362__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"uniqExact(user_id)\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 64317, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(uniqExact(user_id))\", \"optionName\": \"metric_96mzgozchc_krody5ovhz\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25334, \"datasource_name\": \"Untitled Query 2 06/07/2023 17:41:20\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":12362,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":64317,\"column_name\":\"uniqExact(user_id)\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT64\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(uniqExact(user_id))\",\"optionName\":\"metric_96mzgozchc_krody5ovhz\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043b\u0435\u043d\u0442\u044b \u043d\u043e\u0432\u043e\u0441\u0442\u0435\u0439",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.Untitled Query 2 06/07/2023 17:49:30",
+                            "datasource_type": "table",
+                            "id": 25335,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"12367__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 64337, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(user_id)\", \"optionName\": \"metric_9fray1t68ej_nvdachis9jh\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25335, \"datasource_name\": \"Untitled Query 2 06/07/2023 17:49:30\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":12367,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":64337,\"column_name\":\"user_id\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT32\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"COUNT_DISTINCT(user_id)\",\"optionName\":\"metric_9fray1t68ej_nvdachis9jh\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0438\u044f",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.Untitled Query 2 06/07/2023 17:49:30",
+                            "datasource_type": "table",
+                            "id": 25336,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"12367__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"source\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 64337, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(user_id)\", \"optionName\": \"metric_9fray1t68ej_nvdachis9jh\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25336, \"datasource_name\": \"Untitled Query 2 06/07/2023 17:49:30\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":12367,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"source\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":64337,\"column_name\":\"user_id\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT32\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"COUNT_DISTINCT(user_id)\",\"optionName\":\"metric_9fray1t68ej_nvdachis9jh\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0438\u044f \u043f\u043e \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0443",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20230520.Untitled Query 2 06/07/2023 17:49:30",
+                            "datasource_type": "table",
+                            "id": 25338,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"12367__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"countIf(user_id, country='Russia')\", \"optionName\": \"metric_9fray1t68ej_nvdachis9jh\", \"sqlExpression\": \"countIf(user_id, country='Russia')\"}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 25338, \"datasource_name\": \"Untitled Query 2 06/07/2023 17:49:30\", \"schema\": \"simulator_20230520\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":12367,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SQL\",\"sqlExpression\":\"countIf(user_id, country='Russia')\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"countIf(user_id, country='Russia')\",\"optionName\":\"metric_9fray1t68ej_nvdachis9jh\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0438\u044f \u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+                            "viz_type": "line"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T18:05:29"
+                            },
+                            "column_name": "uniqExact(user_id)",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:42:43"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64317,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 12362,
+                            "type": "UINT64",
+                            "uuid": "d1439473-6dd7-4d60-bc31-b024ee729bd1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T18:05:29"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:42:43"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64318,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 12362,
+                            "type": "DATE",
+                            "uuid": "edf91a6c-124f-4578-bc2d-424caf656c28",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T18:05:29"
+                            },
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:42:43"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 12579,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 12362,
+                            "uuid": "44a47c2c-288b-4350-89bb-6ed018e99210",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 12362, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20230520",
+                "sql": "select count( DISTINCT user_id), date from (\nSELECT  user_id, time::DATE as date FROM simulator_20230520.feed_actions\nWHERE user_id NOT IN (SELECT user_id FROM simulator_20230520.message_actions)\n) as t1\nGroup by date",
+                "table_name": "Untitled Query 2 06/07/2023 17:41:20",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "user_id",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64337,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "UINT32",
+                            "uuid": "15c1370d-d3c6-40b3-886d-008e70171f29",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "time",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64338,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "DATETIME",
+                            "uuid": "a2d0702d-58c2-4e02-ad7e-34b30183264d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "gender",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64339,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "INT8",
+                            "uuid": "b4085d31-c08b-4b59-89c5-a5812a12ebb5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "os",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64340,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "STRING",
+                            "uuid": "66f23558-37a0-4993-883c-546bdaabd883",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "source",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64341,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "STRING",
+                            "uuid": "308c45b5-4ce4-4922-8d1a-a7ddaae78fcc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64342,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "STRING",
+                            "uuid": "8c71f656-2204-433f-95ff-d38d4ee01ad8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64343,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 12367,
+                            "type": "DATE",
+                            "uuid": "141ee750-3a00-4f53-9752-8114495266e7",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 644,
+                            "changed_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "created_by_fk": 644,
+                            "created_on": {
+                                "__datetime__": "2023-06-07T17:49:42"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 12584,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 12367,
+                            "uuid": "8c7d797f-340f-4700-bde5-8836b1fcb296",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 12367, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20230520",
+                "sql": "select user_id, time, gender, os, source, country, time::DATE as date  FROM\n(SELECT user_id, time, gender, os, source, country FROM simulator_20230520.feed_actions) t1\nJOIN\n(SELECT user_id, time from simulator_20230520.message_actions) t2\nusing user_id",
+                "table_name": "Untitled Query 2 06/07/2023 17:49:30",
+                "template_params": null
+            }
+        }
+    ]
+}
